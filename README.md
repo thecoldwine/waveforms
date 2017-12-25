@@ -9,7 +9,7 @@ In many cases, the medium in which the wave propagates does not permit a direct 
 In these cases, the term "waveform" refers to the shape of a graph of the varying quantity against time.
 An instrument called an oscilloscope can be used to pictorially represent a wave as a repeating image on a screen.
 
-[This](https://docs.google.com/spreadsheets/d/1yav__Zk_zyuSIr3frNeUTSwELCtd5-JVMRQob9vdnpU/edit?usp=sharing) google spreadsheet will be our oscillator.
+[This](https://docs.google.com/spreadsheets/d/1yav__Zk_zyuSIr3frNeUTSwELCtd5-JVMRQob9vdnpU/edit?usp=sharing) google spreadsheet will be our oscilloscope.
 
 ## Usage
 There are two variants of usage: simple call and flow. Let's see both.
