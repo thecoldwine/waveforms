@@ -71,7 +71,7 @@ func (wv *Waveform) run(interval int64, g generator) (out chan float64, err erro
 			v, ok := <-wv.ticker.C
 
 			if ok {
-				out <- g(wv.wavelength, wv.amplitude, wv.phase, float64(v.Nanosecond()))
+				out <- g(wv.wavelength, wv.amplitude, wv.phase, float64(v.UnixNano()/(int64(time.Millisecond)/int64(time.Nanosecond))))
 			}
 		}
 
